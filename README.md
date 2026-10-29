@@ -9,12 +9,17 @@ Each laboratory work is on its own branch (`lab1`, `lab2`, ...); `main` has all 
 | Branch / folder | Laboratory work | Contents |
 |---|---|---|
 | `lab1` | Lab 1 – The Caesar Cipher and the Caesar Cipher with a Permutation (Romanian alphabet, n = 31) | report (.docx + .md), screenshots, Python program |
+| `lab2` | Lab 2 – Cryptanalysis of Monoalphabetic Ciphers (frequency analysis attack, variant 2) | report (.docx + .md), charts, screenshots, Python program, cryptogram |
 
 ## Running a lab
 
-Requires Python 3, no extra packages.
+Requires Python 3, no extra packages (the Lab 2 charts also need `matplotlib`).
 
 ```bash
 cd lab1
 python3 caesar.py
+
+cd lab2
+python3 frequency_attack.py
+python3 charts.py          # optional, redraws the charts
 ```
